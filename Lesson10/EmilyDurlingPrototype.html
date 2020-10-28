@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<!--Emily Durling 10/27/20-->
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+		<title>Portfolio Prototype</title>
+			<link rel="stylesheet" href="css/EmilyDurlingPrototype.css">
+			<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&family=Roboto:wght@300&display=swap" 
+		rel="stylesheet">
+<style>
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  grid-gap: 10px;
+  background-color: #837799;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: #d7f7d2;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+
+<div class="grid-container">
+  <div class="item1"><h1>Emily Durling</h1>
+			<h2>Web Design Student At Wake Tech</h2>
+            <style type="text/css">
+	  body {
+	  background: #d7f7d2;
+	  }
+	  ul {
+	  text-align: left;
+	  list-style: none;
+	  }
+	  ul li {
+	  font-family: bold 12px/18px 'Roboto', sans-serif;
+	  display: inline-block;
+	  position: relative;
+	  padding: 15px 20px;
+	  background: #d7f7d2;
+	  cursor: pointer;
+	  }
+	  ul li:hover {
+	  background: #70807f;
+	  color: #f5fff9;
+	  }
+	  ul li ul {
+	  padding: 0;
+	  position: absolute;
+	  top: 48px;
+	  left: -10000px;
+	  width: 150px;
+	  }
+	  ul li ul li {
+	  background: #70807f;
+	  display: block;
+	  color: #f5fff9;
+	  }
+	  ul li ul li:hover {background: #575757;} 
+	  ul li:hover ul {
+	  display: block;
+	  left: 0px;
+	  }
+	  </style>
+	  <section>
+	   <nav><ul><li>Home</li>
+	  <li>About Me</li>
+	  <li> Web Portfolio
+	  <ul>
+	  <li>Web Design</li>
+	  <li>Web Development</li>
+	  </ul>
+	  </li>
+	  <li>Art Portfolio
+	  <ul>
+	  <li>Digital Illustration</li>
+	  <li>Traditional Illustration</li>
+	  <li>Logos</li>
+	  </ul>
+	  </li>
+	  <li>Social Media</li>
+	  <li>Contact Me</li>
+	  </section></div>
+      
+  <div class="item2">My name is Emily Durling! I'm currently a student at Wake Tech Community College in the Webpage Design major. 
+		I'm 22 Years old and primarily work with html and css, as well as create art. I'm currently unemployed, as I'm still in school, but I'm 
+		constantly looking to expand upon my professional experiences!</div>
+  <div class="item3"><br>
+		  <img src="Images/Lesson09Screenshot.png" alt="A screenshot of a previous version of a portfolio website">
+		  <br>
+	   <img src="Images/Lesson5Screenshot.png" alt="A screenshot of a website made to showcase responsive web design resources">
+	   <br>
+	  <img src="Images/Lesson6Screenshot.png" alt="A screenshot of a website made to showcase responsive web design">
+	  <br></div>  
+  <div class="item4"><br>
+	  <a href="Lesson09/index.html">Lesson09 Webpage</a>
+	  <br>
+	  <p>A webpage recently made in one of my classes. It was created as a practice portfolio website prior to creating this prototype 
+	  portfolio website.</p>
+	  <br>
+
+	  <a href="Lesson5/responsive05.html">Responsive Design Resources Webpage</a>
+	  <br>
+	  <p>A webpage recently made in one of my classes. It was created to showcase different resources that are useful 
+	  when creating a webpage with responsive design elements</p>
+	  <br>
+	 
+	  <a href="Lesson6/analyze06.html">Responsive Design Elements Webpage</a>
+	  <br>
+	  <p>A webpage recently made in one of my classes. It was created to showcase the effects of using responsive design elements.</p>
+	  <br>
+      </div>
+      
+      
+  <div class="item5"><div>
+			<h2>Where To Find Me:</h2>
+
+			<ul class="contact-list">
+				<li><a href="mailto:edurling@my.waketech.edu">edurling@my.waketech.edu</a></li>
+				<li><a class="btn" href="http://yourwebsite.com" target="_blank">yourwebsite.com</a></li>
+				<li><a class="btn" href="https://www.linkedin.com/in/emily-durling-79b6ab1b6/" target="_blank">LinkedIn</a></li>
+          
+			</ul>
+		</div></div>
+</div>
+
+</body>
+</html>
